@@ -1,0 +1,96 @@
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/bg.png');
+    height: 100vh;
+    padding: 3px;
+}
+
+.Big-title{
+    color: gold;
+    font-size: 45px;
+    padding: 20px 50px;
+    font-family: 'Abril FatFace', cursive;
+}
+
+.scroll-down{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 60px;
+}
+
+.landing-page{
+    padding: 20px 50px;
+}
+
+nav.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 450px;
+    margin-left: 60px;
+    margin-bottom: -50px;
+}
+
+nav.nav li{
+    font-size: 20px;
+    width: px;
+    color:black
+}
+
+
+.services {
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+}
+
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery-icon {
+    width: 50px;
+}
+
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
